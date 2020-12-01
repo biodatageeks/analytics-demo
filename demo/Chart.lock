@@ -1,0 +1,18 @@
+dependencies:
+- name: minio
+  repository: https://helm.min.io/
+  version: 8.0.5
+- name: hdfs
+  repository: https://gradiant.github.io/charts/
+  version: 0.1.9
+- name: hive-metastore
+  repository: https://gradiant.github.io/charts/
+  version: 0.1.2
+- name: presto
+  repository: https://valeriano-manassero.github.io/helm-charts
+  version: 1.2.4
+- name: superset
+  repository: https://charts.cloudposse.com/incubator/
+  version: 1.2.0
+digest: sha256:1fc2977598cdaa336861e606dc59ba4b64858c348413c9a5c031a44645c66477
+generated: "2020-11-30T21:53:13.185403+01:00"

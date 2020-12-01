@@ -1,0 +1,25 @@
+dependencies:
+  - name: minio
+    version: 8.0.5
+    repository: https://helm.min.io/
+    alias: minio
+
+  - name: hdfs
+    version: 0.1.9
+    repository: https://gradiant.github.io/charts/
+    alias: hdfs
+
+  - name: hive-metastore
+    version: 0.1.2
+    repository: https://gradiant.github.io/charts/
+    alias: metastore
+
+  - name: presto
+    version: 1.2.4
+    repository: https://valeriano-manassero.github.io/helm-charts
+    alias: prestosql
+
+  - name: superset
+    version: 1.2.0
+    repository: https://charts.cloudposse.com/incubator/
+    alias: superset
